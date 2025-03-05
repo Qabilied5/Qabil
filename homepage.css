@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'NexaHeavy';
+    src: url(font/Nexa\ Heavy.otf);
+}
+
+@font-face {
+    font-family: 'NexaRegular';
+    src: url(font/Nexa\ Regular.otf);
+}
+
+@font-face {
+    font-family: 'NexaThin';
+    src: url(font/Nexa\ Thin.otf);
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+    background-color: #111111;
+}
+
+.header{
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.navbar{
+    margin-left: auto;
+    gap: 100px;
+    display: flex;
+}
+
+
+h1{
+    font-size: 50px;
+    font-family: 'NexaHeavy';
+    -webkit-text-fill-color: white;
+}
+
+#judul-profile{
+    font-size: 20px;
+    font-family: 'NexaHeavy';
+    -webkit-text-fill-color: white;
+}
+
+h2{
+    -webkit-text-fill-color: rgb(62, 62, 62);
+    font-family: 'NexaRegular';
+}
+
+h3{
+    font-family: 'NexaRegular';
+    -webkit-text-fill-color: white;
+}
+
+h4{
+    font-size: 15px;
+    font-family: 'NexaThin';
+    -webkit-text-fill-color: white;
+}
+
+h5{
+    font-family: 'NexaThin';
+}
+
+.content{
+    padding-top: 40px;
+    width: 100%;
+    height: 90vh;
+}
+
+.content-content{
+    display: flex;
+}
+
+#photo-component{
+    width: 300px;
+}
+
+.left-content{
+    padding-top: 40px;
+    padding-left: 110px;
+    width: 50%;
+}
+
+.right-content{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.content h1{
+    line-height: 0;
+}
+
+#content-text{
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: 'NexaThin';
+    -webkit-text-fill-color: white;
+    text-align: justify;
+}
+
+#software-element{
+    width: 360px;
+}
+
+.second-page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1950px;
+    background-image: url(element/second-slide-background.png);
+    background-size: 100%;
+}
+
+.second-content{
+    align-items: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 300px;
+}
+
+.software-group{
+    display: flex;
+    gap: 50px;
+}
+
+.software-group h4{
+    -webkit-text-fill-color: black;
+}
+
+.logo-control{
+    width: 170px;
+    transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out; --Ini
+}
+
+.logo-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-content{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#quotes{
+    margin-top: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer{
+    padding-left: 90px;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    background-color: black;
+}
+
+.category{
+    margin-left: 250px;
+    gap: 250px;
+    display: flex;
+}
+
+.category h4{
+    line-height: 0.7;
+}
+
+.porto-group{
+    gap: 4px;
+    display: flex;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* HEADER */
+    .header {
+        padding: 40px;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar {
+        gap: 30px;
+    }
+
+    /* CONTENT */
+    .content {
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .content-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left-content {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .right-content {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #photo-component {
+        width: 70%;
+        max-width: 300px;
+    }
+
+    /* FOOTER */
+    .footer {
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    #software-element {
+        width: 80%;
+        max-width: 350px;
+    }
+
+    .second-page{
+        margin-top: 50px;
+        height: auto;
+    }
+
+    .third-content{
+        margin-top: 10px;
+    }
+
+    .porto-group{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #quotes{
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Lebih kecil untuk HP */
+    .navbar {
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h4 {
+        font-size: 13px;
+    }
+
+    #photo-component {
+        width: 80%;
+    }
+}
