@@ -125,6 +125,7 @@ h5{
 }
 
 .software-group{
+    width: 70%;
     display: flex;
     gap: 50px;
 }
@@ -139,6 +140,7 @@ h5{
 }
 
 .logo-text{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,6 +164,7 @@ h5{
 
 .footer{
     padding-left: 90px;
+    padding-right: 90px;
     display: flex;
     align-items: center;
     height: 300px;
@@ -169,9 +172,9 @@ h5{
 }
 
 .category{
-    margin-left: 250px;
-    gap: 250px;
     display: flex;
+    margin-left: auto;
+    gap: 250px;
 }
 
 .category h4{
@@ -181,6 +184,8 @@ h5{
 .porto-group{
     gap: 4px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -225,19 +230,48 @@ h5{
         max-width: 300px;
     }
 
-    /* FOOTER */
-    .footer {
-        text-align: center;
-        padding: 20px 10px;
+    .second-page {
+        margin-top: 60px;
+        background-image: none;
+        background-color: rgb(247, 235, 220);
     }
 
+    .second-content{
+        padding-top: 30px;
+    }
+
+    /* FOOTER */
+    .footer {
+        padding: 0 50px 0 50px;
+    }
+
+    .category{
+        gap: 30px;
+    }
+
+    .footer-content h1{
+        font-size: 30px;
+    }
+    .footer-content h3{
+        font-size: 15px;
+    }
+    .footer-content h4{
+        font-size: 10px;
+    }
+    
     #software-element {
         width: 80%;
         max-width: 350px;
     }
 
+    .software-group{
+    }
+
+    .logo-control{
+        width: 130%;
+    }
+
     .second-page{
-        margin-top: 50px;
         height: auto;
     }
 
@@ -251,11 +285,18 @@ h5{
     }
 
     #quotes{
-        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        align-items: center ;
         justify-content: center;
         padding: 20px;
-        background-color: white;
     }
+
+    #quotes h2{
+        font-size: 15px;
+        margin: 0;  
+    }
+
 }
 
 @media screen and (max-width: 480px) {
