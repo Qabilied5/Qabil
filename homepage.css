@@ -218,6 +218,14 @@ h5{
         padding-top: 20px;
     }
 
+    #content-text{
+        line-height: 1.5;
+        font-size: 80%;
+        font-family: 'NexaThin';
+        -webkit-text-fill-color: white;
+        text-align: justify;
+    }
+
     .content-content {
         flex-direction: column;
         align-items: center;
@@ -247,6 +255,7 @@ h5{
     }
 
     .second-content{
+        height: 250px;
         padding-top: 30px;
     }
 
@@ -259,7 +268,7 @@ h5{
     }
 
     .third-content h5{
-        font-size: 100%;
+        font-size: 50%;
     }
 
     /* FOOTER */
