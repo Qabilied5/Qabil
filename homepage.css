@@ -246,7 +246,6 @@ h5{
         background-color: rgb(247, 235, 220);
     }
 
-
     .second-content{
         padding-top: 30px;
     }
@@ -280,10 +279,10 @@ h5{
         font-size: 150%;
     }
     .footer-content h3{
-        font-size: 100%;
+        font-size: 70%;
     }
     .footer-content h4{
-        font-size: 80%;
+        font-size: 50%;
         line-height: 1;
     }
     
@@ -293,7 +292,12 @@ h5{
     }
 
     .logo-control{
-        width: 130%;
+        width: 100%;
+    }
+
+    
+    .logo-text h4{
+        font-size: 50%;
     }
 
     .second-page{
