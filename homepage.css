@@ -198,6 +198,10 @@ h5{
 
 @media screen and (max-width: 768px) {
     /* HEADER */
+    body{
+        background-color: grey;
+    }
+    
     .header {
         padding: 40px;
         flex-direction: column;
