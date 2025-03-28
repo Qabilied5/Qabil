@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'NexaHeavy';
+    src: url(font/Nexa\ Heavy.otf);
+}
+
+@font-face {
+    font-family: 'NexaRegular';
+    src: url(font/Nexa\ Regular.otf);
+}
+
+@font-face {
+    font-family: 'NexaThin';
+    src: url(font/Nexa\ Thin.otf);
+}
+
+body,html{
+    padding: 0;
+    margin: 0;
+    background-color: #111111;
+}
+
+.header{
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.navbar{
+    margin-left: auto;
+    gap: 120px;
+    display: flex;
+    #aboutme{
+        border-radius: 2px;
+        background-color: white;
+        -webkit-text-fill-color: black;
+    }
+}
+
+.navbar-feature{
+    font-size: 17px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'NexaHeavy';
+    -webkit-text-fill-color: white;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'NexaHeavy';
+    -webkit-text-fill-color: white;
+}
+
+#judul-profile{
+    font-size: 20px;
+    font-family: 'NexaHeavy';
+    -webkit-text-fill-color: white;
+}
+
+h2{
+    -webkit-text-fill-color: rgb(62, 62, 62);
+    font-family: 'NexaRegular';
+}
+
+h3{
+    font-family: 'NexaRegular';
+    -webkit-text-fill-color: white;
+}
+
+h4{
+    font-size: 15px;
+    font-family: 'NexaThin';
+    -webkit-text-fill-color: white;
+}

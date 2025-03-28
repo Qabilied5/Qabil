@@ -1,7 +1,6 @@
 /* Animation */
 
 .navbar-feature{
-    height: 15px;
     display: inline-block;
     padding: 5px 10px;
     position: relative;
@@ -10,7 +9,7 @@
 
 .navbar-feature:hover{
     border-radius: 4px;
-    height: 15px;
+    height: auto;
     background-color: rgb(255, 255, 255);
     -webkit-text-fill-color: black;
 }
@@ -43,7 +42,7 @@
     }
     
     .porto-img:hover{
-        width: 120%;
+        width: 110%;
     }
 }
 
