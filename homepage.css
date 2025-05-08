@@ -287,17 +287,17 @@ h5{
     .category{
         display: flex;
         margin-left: 10%;
-        gap: 3vh%;
+        gap: 3vh;
     }
 
     .footer-content h1{
         font-size: 3vh;
     }
     .footer-content h3{
-        font-size: 1vh;
+        font-size: 2vh;
     }
     .footer-content h4{
-        font-size: 0.5vh;
+        font-size: 1vh;
         line-height: 2;
     }
     
