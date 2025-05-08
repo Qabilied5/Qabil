@@ -266,7 +266,7 @@ h5{
     }
 
     .software-group{
-        gap: 10%;
+        gap: 3vh;
     }
 
     .third-content h1{
@@ -287,18 +287,18 @@ h5{
     .category{
         display: flex;
         margin-left: 10%;
-        gap: 7%;
+        gap: 3vh%;
     }
 
     .footer-content h1{
-        font-size: 150%;
+        font-size: 5vh;
     }
     .footer-content h3{
-        font-size: 70%;
+        font-size: 2vh;
     }
     .footer-content h4{
-        font-size: 50%;
-        line-height: 1;
+        font-size: 1vh;
+        line-height: 2;
     }
     
     #software-element {
@@ -306,11 +306,21 @@ h5{
         max-width: 350px;
     }
 
+    .logo-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        img{
+            width: 6vh;
+        }
+    
+    }    
+
     .logo-control{
         width: 100%;
     }
 
-    
     .logo-text h4{
         font-size: 50%;
     }
