@@ -28,9 +28,11 @@ body, html{
 }
 
 .navbar{
-    margin-left: auto;
-    gap: 120px;
     display: flex;
+    margin-left: auto;
+    gap: 7vh;
+    display: flex;
+    box-sizing: border-box;
 }
 
 
@@ -104,7 +106,7 @@ h5{
 
 #content-text{
     line-height: 1.5;
-    font-size: 120%;
+    font-size: 2.5vh;
     font-family: 'NexaThin';
     -webkit-text-fill-color: white;
     text-align: justify;
@@ -132,7 +134,6 @@ h5{
 }
 
 .software-group{
-    width: 70%;
     display: flex;
     gap: 50px;
 }
@@ -151,6 +152,11 @@ h5{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+    img{
+        width: 15vh;
+    }
+
 }
 
 .third-content{
@@ -170,8 +176,6 @@ h5{
 }
 
 .footer{
-    padding-left: 90px;
-    padding-right: 90px;
     display: flex;
     align-items: center;
     height: 300px;
@@ -179,9 +183,10 @@ h5{
 }
 
 .category{
+    padding: 0px 30px;
     display: flex;
     margin-left: auto;
-    gap: 250px;
+    gap: 5vh;
 }
 
 .category h4{
@@ -227,7 +232,8 @@ h5{
     }
 
     .content-content {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
         align-items: center;
         text-align: center;
     }
