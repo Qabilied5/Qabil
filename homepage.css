@@ -279,22 +279,22 @@ h5{
 
     /* FOOTER */
     .footer {
+        background-color: grey;
+        display: flex;
+        flex-direction: column;
         padding: 0;
-        padding-left: 30px;
-        padding-right: 30px;
     }
 
     .category{
-        display: flex;
-        margin-left: none;
-        gap: none;
+        align-items: center;
+        justify-content: center;
+        background-color: blue;
     }
 
     .footer-content h1{
         font-size: 3vh;
     }
     .footer-content h3{
-        -webkit-text-stroke-width: green;
         font-size: 2vh;
     }
     .footer-content h4{
