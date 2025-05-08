@@ -30,8 +30,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    
     .logo-control:hover{
-        width: 160%;
+        width: 2vh;
         border-radius: 30px;
         background-color: rgb(255, 242, 226);
     }
