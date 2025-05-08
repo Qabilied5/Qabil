@@ -15,7 +15,7 @@
 }
 
 .logo-control:hover{
-    width: 3vh;
+    width: 200px;
     border-radius: 30px;
     background-color: rgb(255, 242, 226);
 }
